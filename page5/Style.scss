@@ -48,7 +48,6 @@ body{
                     font-family: DM Serif Display;
                     font-size: 40px;
                     font-style: normal;
-                    font-weight: 400;
                     line-height: 48px;
                 }
             }
@@ -67,7 +66,7 @@ body{
                     font-family: DM Sans;
                     font-size: 16px;
                     font-style: normal;
-                    font-weight: 700;
+                    font-weight: 580;
                     line-height: 24px;
                     flex-shrink: 0;
                 }
@@ -79,7 +78,7 @@ body{
                 flex-shrink: 0;
                 justify-self: end;
                 align-content: end;
-                border-color: #FFFFFF4D;
+                border: 1px solid #FFFFFF4D;
                 background-color: #434CCC;
                 border-radius: 8px;
                 font-weight: 700;
@@ -93,7 +92,6 @@ body{
         height: 224px;
         background-color: #434CCC;
 
-        // border: 1px solid;
         >h1 {
             color: white;
             text-align: center;

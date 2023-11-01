@@ -4,11 +4,8 @@ $ful-width: 1440px;
 .hero-cards{
     display: grid;
     grid-template-columns: 834px 270px;
-    // gap: 66px;
     grid-column-gap: 66px;
-    // grid-row-gap: 48px;
     padding: $padding-div;
-    // width: $ful-width;
     background-color: #f5f6fc;
     height: 2560px;
 
@@ -37,7 +34,6 @@ $ful-width: 1440px;
                 font-weight: 700;
                 line-height: 24px;
                 margin-left: 32px;
-                // margin-bottom: 5px;
             }
             >.title{
                 color: var(--Text_Black, #000);
@@ -46,7 +42,6 @@ $ful-width: 1440px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 64px;
-                // margin-left: 32px;
                 margin: 5px 56px 19px 32px;
             }
             >.para{
@@ -80,16 +75,13 @@ $ful-width: 1440px;
             }
             >.writer{
                 display: flex;
-                // border: 1px solid;
-                // justify-content: space-between;
                 align-items: center;
                 margin: 0px 32px 0px 32px;
                 
                 >img{
                     border-radius: 50%;
                     margin-left: auto;
-                    flex-shrink: 0;
-                    // width: 59px;
+                    flex-shrink: 0;;
                 }
                 >.more{
                     color: var(--Text_Black, #000);
@@ -105,7 +97,6 @@ $ful-width: 1440px;
                     height: 11px;
                     flex-shrink: 0;
                     fill: #000;
-                    // margin: 0px 404px 0px 0px;
                 }
                 >.date{
                     margin-left: 404px;
@@ -116,7 +107,7 @@ $ful-width: 1440px;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 24px; /* 150% */
+                    line-height: 24px;
                 }
                 >.name{
                     margin-right: 20px;
@@ -139,8 +130,8 @@ $ful-width: 1440px;
         align-items: center;
         gap: 8px;
         height: 48px;
-        // margin-bottom: auto;
         margin-top: -40px;
+        
         >button{
             width: 48px;
             height: 48px;
