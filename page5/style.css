@@ -1,20 +1,18 @@
 .hero-cards {
   display: grid;
   grid-template-columns: 834px 270px;
-  gap: 66px;
+  grid-column-gap: 66px;
   padding: 0px 135px 0px 135px;
   background-color: #f5f6fc;
   height: 2560px;
-}
-.hero-cards > div {
-  border: 1px solid;
-  margin-top: 64px;
 }
 .hero-cards > .cards-div {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   height: 2320px;
   gap: 32px;
+  margin-top: 64px;
+  margin-bottom: 0%;
 }
 .hero-cards > .cards-div > .cards {
   height: 752px;
@@ -115,6 +113,24 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+}
+.hero-cards > .page-nav {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  margin-top: -40px;
+}
+.hero-cards > .page-nav > button {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.categories {
+  height: 2320px;
 }
 
 * {
