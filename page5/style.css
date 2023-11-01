@@ -31,6 +31,9 @@
   height: 551.28px;
   flex-shrink: 0;
 }
+.hero-cards > .cards-div > .cards > .card1 > img {
+  margin: -74px -45px -61px -11px;
+}
 
 * {
   margin: 0%;
