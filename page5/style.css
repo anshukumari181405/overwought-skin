@@ -62,7 +62,7 @@
   margin-bottom: 16px;
 }
 .hero-cards > .cards-div > .cards > img {
-  border-radius: 2px;
+  border-radius: 5px;
   display: block;
   margin: auto;
   margin: 32px;
@@ -139,19 +139,62 @@
   flex-shrink: 0;
   border-color: rgba(0, 0, 0, 0.5019607843);
   border-radius: 8px;
-}
-.categories ::placeholder {
-  margin-left: 16px;
+  padding-left: 16px;
   font-size: 16px;
 }
-.categories > h4 {
-  margin-top: 65px;
+.categories > .categories-head {
+  margin-top: 56px;
   color: var(--Text_Black, #000);
   font-family: DM Serif Display;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+.categories > .cate-pages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+}
+.categories > .cate-pages > .page-crowler {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories > .cate-pages > .page-crowler > p:nth-child(1) {
+  color: var(--Text_Black, #000);
+  font-family: DM sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.categories > .cate-pages > .page-crowler > p:nth-child(2) {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.categories > .cate-pages hr {
+  margin-top: 9px;
+  margin-bottom: 14px;
+  width: 270px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.0974;
+  background: #000;
+}
+.categories > .recent-head {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 41px;
 }
 
 * {
