@@ -131,12 +131,24 @@ $ful-width: 1440px;
         gap: 8px;
         height: 48px;
         margin-top: -40px;
-        
+
         >button{
             width: 48px;
             height: 48px;
             flex-shrink: 0;
-            
+            color: #434CCC;
+            text-align: center;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            border: 1px solid #bcc0ed;
+
+        }
+        >button:active{
+            background-color: #434CCC;
+            color: white;
         }
     }
 }
