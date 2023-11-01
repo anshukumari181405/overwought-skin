@@ -49,12 +49,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  width: 770px;
   height: 81px;
   flex-shrink: 0;
   margin: 0px 32px 16px 32px;
 }
 .hero-cards > .cards-div > .cards > hr {
   margin-left: 32px;
+  opacity: 0.1011;
+  width: 802px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #000;
+  margin-bottom: 16px;
 }
 .hero-cards > .cards-div > .cards > img {
   border-radius: 2px;
@@ -62,6 +69,32 @@
   margin: auto;
   margin: 32px;
   flex-shrink: 0;
+}
+.hero-cards > .cards-div > .cards > .writer {
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-cards > .cards-div > .cards > .writer > img {
+  border-radius: 50%;
+  margin-right: 32px;
+}
+.hero-cards > .cards-div > .cards > .writer > .more {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0px 7px 0px 32px;
+}
+.hero-cards > .cards-div > .cards > .writer > svg {
+  width: 6px;
+  height: 11px;
+  flex-shrink: 0;
+  fill: #000;
+  margin-left: 0px;
 }
 
 * {
