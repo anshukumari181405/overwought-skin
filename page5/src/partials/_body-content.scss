@@ -1,0 +1,42 @@
+$padding-div: 0px 135px 0px 135px;
+$ful-width: 1440px;
+
+.hero-cards{
+    display: grid;
+    grid-template-columns: 834px 270px;
+    gap: 66px;
+    padding: $padding-div;
+    // width: $ful-width;
+    background-color: #f5f6fc;
+    height: 2560px;
+
+    >div{
+        border: 1px solid;
+        margin-top: 64px;
+    }
+
+    >.cards-div{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        height: 2320px;
+        gap: 32px;
+
+
+        >.cards{
+            height: 752px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
+
+            >img{
+                border-radius: 2px;
+                display: block;
+                margin: auto;
+                width: 826px;
+                height: 551.28px;
+                flex-shrink: 0;
+            }
+        }
+    }
+}

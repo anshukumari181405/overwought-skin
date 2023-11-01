@@ -1,0 +1,139 @@
+.hero-cards {
+  display: grid;
+  grid-template-columns: 834px 270px;
+  gap: 66px;
+  padding: 0px 135px 0px 135px;
+  background-color: #f5f6fc;
+  height: 2560px;
+}
+.hero-cards > div {
+  border: 1px solid;
+  margin-top: 64px;
+}
+.hero-cards > .cards-div {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 2320px;
+  gap: 32px;
+}
+.hero-cards > .cards-div > .cards {
+  height: 752px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.hero-cards > .cards-div > .cards > img {
+  border-radius: 2px;
+  display: block;
+  margin: auto;
+  width: 826px;
+  height: 551.28px;
+  flex-shrink: 0;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1440px;
+  height: 3616px;
+  display: flex;
+  flex-direction: column;
+}
+.container .header {
+  background-color: #434CCC;
+  width: 1440px;
+}
+.container .header > .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  height: 80px;
+  margin: 0px 135px 0px 135px;
+}
+.container .header > .nav > h3 {
+  color: white;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 534px;
+}
+.container .header > .nav > h3 > a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.container .header > .nav > nav {
+  display: flex;
+  list-style-type: none;
+  width: 324px;
+  justify-content: space-between;
+  align-items: center;
+  height: 24px;
+}
+.container .header > .nav > nav > a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  flex-shrink: 0;
+}
+.container .header > .nav > button {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  justify-self: end;
+  align-content: end;
+  border-color: rgba(255, 255, 255, 0.3019607843);
+  background-color: #434CCC;
+  border-radius: 8px;
+  font-weight: 700;
+  color: white;
+}
+.container .head-det {
+  width: 1440px;
+  height: 224px;
+  background-color: #434CCC;
+}
+.container .head-det > h1 {
+  color: white;
+  text-align: center;
+  margin-top: 47px;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+.container .head-det > p {
+  color: var(--Text_White, #FFF);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 55px;
+}
+
+/*# sourceMappingURL=style.css.map */
