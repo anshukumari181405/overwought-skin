@@ -131,6 +131,27 @@
 
 .categories {
   height: 2320px;
+  margin-top: 64px;
+}
+.categories > input {
+  width: 270px;
+  height: 48px;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.5019607843);
+  border-radius: 8px;
+}
+.categories ::placeholder {
+  margin-left: 16px;
+  font-size: 16px;
+}
+.categories > h4 {
+  margin-top: 65px;
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 * {
@@ -141,6 +162,7 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container {

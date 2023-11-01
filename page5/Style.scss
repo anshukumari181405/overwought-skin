@@ -11,6 +11,7 @@ $ful-width: 1440px;
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .container {
     width: $ful-width;

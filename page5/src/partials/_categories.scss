@@ -1,3 +1,25 @@
 .categories{
     height: 2320px;
+    margin-top: 64px;
+
+    >input{
+        width: 270px;
+        height: 48px;
+        flex-shrink: 0;
+        border-color: #00000080;
+        border-radius: 8px;
+    }
+    ::placeholder{
+        margin-left: 16px;
+        font-size: 16px;
+    }
+    >h4{
+        margin-top: 65px;
+        color: var(--Text_Black, #000);
+        font-family: DM Serif Display;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
 }
