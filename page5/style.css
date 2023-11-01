@@ -140,9 +140,6 @@
   background-color: #434CCC;
   color: white;
 }
-.hero-cards > .page-nav > button:active button > svg {
-  color: white;
-}
 
 .categories {
   height: 2320px;
