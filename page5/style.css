@@ -18,21 +18,50 @@
 }
 .hero-cards > .cards-div > .cards {
   height: 752px;
+  width: 100%;
   flex-shrink: 0;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
+.hero-cards > .cards-div > .cards > .small {
+  color: var(--Text_Black, #000);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 32px;
+}
+.hero-cards > .cards-div > .cards > .title {
+  color: var(--Text_Black, #000);
+  font-family: DM Serif Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  margin: 5px 56px 19px 32px;
+}
+.hero-cards > .cards-div > .cards > .para {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 81px;
+  flex-shrink: 0;
+  margin: 0px 32px 16px 32px;
+}
+.hero-cards > .cards-div > .cards > hr {
+  margin-left: 32px;
+}
 .hero-cards > .cards-div > .cards > img {
   border-radius: 2px;
   display: block;
   margin: auto;
-  width: 826px;
-  height: 551.28px;
+  margin: 32px;
   flex-shrink: 0;
-}
-.hero-cards > .cards-div > .cards > .card1 > img {
-  margin: -74px -45px -61px -11px;
 }
 
 * {
