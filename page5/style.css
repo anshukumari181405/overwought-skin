@@ -304,10 +304,9 @@ body {
 .container .header > .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
   height: 80px;
-  margin: 0px 135px 0px 135px;
+  justify-content: center;
 }
 .container .header > .nav > h3 {
   color: white;
@@ -318,7 +317,7 @@ body {
   line-height: 48px;
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-right: 534px;
+  margin-right: 494px;
 }
 .container .header > .nav > h3 > a {
   text-decoration: none;
