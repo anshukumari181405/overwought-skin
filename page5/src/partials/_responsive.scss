@@ -4,7 +4,6 @@
         .header{
             >#head-nav{
                 width: 95%;
-                // border: 1px solid;
                 gap: 3%;
         
                 nav{
@@ -28,13 +27,10 @@
 }
 @media all and (max-width: 739px){
     .container{
-        // width: 100%;
         .header{
             >#head-nav{
                 width: 95%;
-                // border: 1px solid;
                 justify-content: space-between;
-                // gap: 3%;
         
                 nav{
                     display: none;
@@ -48,7 +44,6 @@
                     font-size: 40px;
                 }
                 >button{
-                    // margin-left: auto;
                     display: none;
                 }
             }

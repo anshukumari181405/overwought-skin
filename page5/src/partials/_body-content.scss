@@ -2,68 +2,36 @@ $padding-div: 0px 135px 0px 135px;
 $ful-width: 1440px;
 
 .hero-cards{
-    // display: grid;
-    // grid-template-columns: 55% 20%;
     display: flex;
-    // grid-column-gap: 5%;
-    // grid-row-gap: 48px;
     justify-content: center;
-    // align-items: center;
     width: 100%;
-    // padding: $padding-div;
-    // flex-wrap: wrap;
     background-color: #f5f6fc;
     height: max-content;
     padding-top: 64px;
-    // border: 1px solid;
     
     .hero-inner{
         width: 85%;
         display: flex;
         gap: 5%;
-        // flex-wrap: wrap;
-        // border: 1px solid;
 
         >.cards-div{    
-            // display: grid;
-            // grid-template-rows: repeat(3,1fr);
             display: flex;
             flex-direction: column;
-
-            // height: 2420px;
             flex-wrap: wrap;
-            // gap: 1.2%;
-            // margin-bottom: 1.2%;
-            // column-gap: 1.2%;
-            // width: 90%;
-            // margin-bottom: 0%;
-            // border: 1px solid;
     
             >.cards{
-                // height: 752px;
-                // width: 834px;
-                // flex-shrink: 0;
                 display: flex;
-                // flex-wrap: wrap;
                 margin-bottom: 1.6%;
                 justify-content: center;
-                // width: 100%;
-                // padding: 5%;
                 border-radius: 5px;
                 background: #FFF;
                 box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
 
                 .card-item{
                     width: 94%;
-                    // height: 93%;
-                    // margin: 0% ;
-                    // margin-top: 3%;
-                    // margin-bottom: 3%;
-                    // border: 1px solid;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    // gap: 10%;
 
                     >.small{
                         color: var(--Text_Black, #000);
@@ -72,7 +40,6 @@ $ful-width: 1440px;
                         font-style: normal;
                         font-weight: 700;
                         line-height: 24px;
-                        // margin-left: 32px;
                     }
                     >.title{
                         color: var(--Text_Black, #000);
@@ -90,29 +57,17 @@ $ful-width: 1440px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: 24px;
-                        // width: 770px;
-                        // height: 81px;
                         margin: 0.5% 0% 1% 0%;
-                        // flex-shrink: 0;
-                        // margin: 0px 32px 16px 32px;
                     }
                     >hr{
-                        // margin-left: 32px;
                         opacity: 0.1011;
-                        // width: 802px;
                         height: 1px;
-                        // flex-shrink: 0;
                         background: #000;
-                        // margin-bottom: 16px;
                     }
                     >img{
                         border-radius: 5px;
-                        // display: block;
-                        // margin: auto;
                         width: 100%;
-                        // margin: 32px;
                         margin: 3% 0% 1% 0%;
-                        // flex-shrink: 0;
                     }
                     >.writer{
                         display: flex;
@@ -134,18 +89,12 @@ $ful-width: 1440px;
                             justify-content: flex-end;
                             gap: 15%;
                             width: 50%;
-                            // border: 1px solid;
                             align-items: center;
     
                             img{
                                 border-radius: 50%;
-                                // margin-left: auto;
-                                // flex-shrink: 0;;
-                                // margin-left: auto;
                             }
                             >.date{
-                                // margin-left: auto;
-                                // margin-right: 0;
                                 color: var(--text-black-50, rgba(0, 0, 0, 0.50));
                                 text-align: right;
                                 font-family: DM Sans;
@@ -155,7 +104,6 @@ $ful-width: 1440px;
                                 line-height: 24px;
                             }
                             >.name{
-                                // margin-left: auto;
                                 color: var(--Text_Black, #000);
                                 text-align: right;
                                 font-family: DM Sans;
@@ -167,8 +115,6 @@ $ful-width: 1440px;
                         }
                         svg{
                             margin-right: auto;
-                            // border: 1px solid;
-                            // font-size: 16px;
                         }
         
                     }
@@ -176,7 +122,6 @@ $ful-width: 1440px;
                 
             }
             .page-nav{
-                // flex-shrink: 0;
                 display: flex;
                 width: 100%;
                 justify-content: center;
@@ -188,7 +133,6 @@ $ful-width: 1440px;
                 button{
                     width: 48px;
                     height: 48px;
-                    // flex-shrink: 0;
                     display: flex;
                     justify-content: center;
                     align-items: center;
