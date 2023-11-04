@@ -266,62 +266,6 @@
   border: 1px solid #bcc0ed;
 }
 
-@media all and (min-width: 740px) and (max-width: 950px) {
-  .container {
-    width: 100%;
-  }
-  .container .header > #head-nav {
-    width: 95%;
-    gap: 3%;
-  }
-  .container .header > #head-nav nav {
-    display: none;
-  }
-  .container .header > #head-nav nav a {
-    display: none;
-  }
-  .container .header > #head-nav > #ham {
-    display: block;
-    font-size: 40px;
-  }
-  .container .header > #head-nav > button {
-    margin-left: auto;
-  }
-}
-@media all and (max-width: 739px) {
-  .container .header > #head-nav {
-    width: 95%;
-    border: 1px solid;
-    justify-content: space-between;
-  }
-  .container .header > #head-nav nav {
-    display: none;
-  }
-  .container .header > #head-nav nav a {
-    display: none;
-  }
-  .container .header > #head-nav > #ham {
-    display: block;
-    font-size: 40px;
-  }
-  .container .header > #head-nav > button {
-    display: none;
-  }
-  .container #hero-inn {
-    width: 95%;
-    flex-direction: column;
-  }
-  .container #hero-inn .cards-div {
-    margin-bottom: 70px;
-  }
-  .container #hero-inn .cards-div .cards {
-    margin-bottom: 16px;
-  }
-  .container #hero-inn > .categories {
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-  }
-}
 * {
   margin: 0%;
   padding: 0%;
@@ -392,6 +336,7 @@
 }
 .container .header > .nav span {
   display: none;
+  color: white;
 }
 .container .head-det {
   width: 100%;
