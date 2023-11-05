@@ -1,0 +1,51 @@
+@media all and (min-width: 300px) and (max-width: 1200px){
+    .container{
+        .header{
+
+            .nav{
+                display: none;
+                
+                a{
+                    display: none;
+                }
+            }
+            .sign-in{
+                display: none;
+            }
+            #ham{
+                display: block;
+                font-size: 50px;
+                color: white;
+            }
+        }
+        .custom-div{
+            #custom-div-h{
+                font-size: 50px;
+            }
+            #custom-div-p{
+                font-size: 20px;
+            }
+        }
+        .after-img{
+            flex-direction: column;
+            // gap: 30px;
+            #contact-fo{
+                width: 100%;
+                margin-bottom: 4%;
+                
+                .input-group{
+                    flex-direction: column;
+                    #name,#email{
+                        width: 100%;
+                        margin-bottom: 4%;
+                    }
+                }
+            }
+            #c-info{
+                width: 100%;
+            }
+    
+        }
+    }
+
+}

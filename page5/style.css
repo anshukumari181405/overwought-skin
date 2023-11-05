@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   background-color: #f5f6fc;
+  height: -moz-max-content;
   height: max-content;
   padding-top: 64px;
 }
@@ -417,6 +418,4 @@
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 55px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=Style.css.map */
