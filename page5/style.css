@@ -3,7 +3,6 @@
   justify-content: center;
   width: 100%;
   background-color: #f5f6fc;
-  height: max-content;
   padding-top: 64px;
 }
 .hero-cards .hero-inner {
@@ -121,8 +120,8 @@
   margin-top: 48px;
 }
 .hero-cards .hero-inner > .cards-div .page-nav button {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,10 +248,9 @@
 .categories > .tag-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 5%;
 }
 .categories > .tag-items > button {
-  height: 32px;
   flex-shrink: 0;
   color: #434CCC;
   text-align: center;
@@ -261,7 +259,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  padding: 3px 13px 3px 13px;
+  margin-bottom: 4%;
+  padding: 2% 4% 2% 4%;
   border-radius: 5px;
   border: 1px solid #bcc0ed;
 }
@@ -292,6 +291,10 @@
   }
   .container #hero-inn #page-nav-btn {
     gap: 3%;
+  }
+  .container #hero-inn #page-nav-btn > button {
+    width: 48px;
+    height: 48px;
   }
 }
 @media all and (max-width: 739px) {
@@ -328,6 +331,10 @@
   }
   .container #hero-inn #page-nav-btn {
     justify-content: space-around;
+  }
+  .container #hero-inn #page-nav-btn > button {
+    width: 48px;
+    height: 48px;
   }
 }
 * {

@@ -114,10 +114,9 @@
     >.tag-items{
         display: flex;
         flex-wrap: wrap;
-        gap: 14px;
+        gap: 5%;
         
         >button{
-            height: 32px;
             flex-shrink: 0;
             color: #434CCC;
             text-align: center;
@@ -126,7 +125,8 @@
             font-style: normal;
             font-weight: 700;
             line-height: 24px;
-            padding: 3px 13px 3px 13px;
+            margin-bottom: 4%;
+            padding: 2% 4% 2% 4%;
             border-radius: 5px;
             border: 1px solid #bcc0ed;
         }
