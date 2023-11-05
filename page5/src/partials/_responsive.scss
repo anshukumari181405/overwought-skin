@@ -27,6 +27,11 @@
 
             #page-nav-btn{
                 gap: 3%;
+
+                >button{
+                    width: 48px;
+                    height: 48px;
+                }
             }
         }
 
@@ -71,6 +76,12 @@
             }
             #page-nav-btn{
                 justify-content: space-around;
+                
+                >button{
+                    width: 48px;
+                    height: 48px;
+                }
+                
             }
         }
     }
