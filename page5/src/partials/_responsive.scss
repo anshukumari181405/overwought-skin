@@ -22,6 +22,13 @@
                 }
             }
         }
+        #hero-inn{
+            width: 95%;
+
+            #page-nav-btn{
+                gap: 3%;
+            }
+        }
 
     }
 }
@@ -61,6 +68,9 @@
             >.categories{
                 padding-left: 1.5%;
                 padding-right: 1.5%;
+            }
+            #page-nav-btn{
+                justify-content: space-around;
             }
         }
     }

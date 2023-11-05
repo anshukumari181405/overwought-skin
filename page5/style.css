@@ -3,7 +3,6 @@
   justify-content: center;
   width: 100%;
   background-color: #f5f6fc;
-  height: -moz-max-content;
   height: max-content;
   padding-top: 64px;
 }
@@ -288,6 +287,12 @@
   .container .header > #head-nav > button {
     margin-left: auto;
   }
+  .container #hero-inn {
+    width: 95%;
+  }
+  .container #hero-inn #page-nav-btn {
+    gap: 3%;
+  }
 }
 @media all and (max-width: 739px) {
   .container .header > #head-nav {
@@ -320,6 +325,9 @@
   .container #hero-inn > .categories {
     padding-left: 1.5%;
     padding-right: 1.5%;
+  }
+  .container #hero-inn #page-nav-btn {
+    justify-content: space-around;
   }
 }
 * {
@@ -418,4 +426,6 @@
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 55px;
-}/*# sourceMappingURL=Style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
