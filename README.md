@@ -3,16 +3,6 @@ To get started with this template, you need to have a basic understanding of htm
 
 ## Description
 
-This project is a collaborative effort by a group of individuals, including:
-
-- Anshu Kumari
-- Shubham Chaubey
-- M Laxminarayan Reddy
-- Sudharshan
-- Balaji Deshmukh
-
-## Description
-
 Welcome to *Overwought-skin*, a collaborative effort by a group of talented individuals to create a visually stunning 2-page website. This project showcases the combined skills and expertise of:
 
 - Anshu Kumari | fw28_014
