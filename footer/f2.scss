@@ -1,0 +1,157 @@
+$primary-color: rgb(168,169,173);
+
+.f2{
+    width:100%;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+    // opacity: 0.0515;
+    background: rgb(245,246,252);
+   // border:1px solid;
+    margin: auto;
+  
+}
+.f2part{
+    width:80%;
+    display: grid;
+    // border: 2px solid red;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    // grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "fir sec thir fou"
+    "fir sec thir fou";
+    justify-content: space-around;
+    margin: auto;
+    gap:12%;
+    .f2part div:nth-child(1){
+        grid-area: fir;
+        
+    }
+    .f2part div:nth-child(2){
+        grid-area: sec;
+    }
+    .f2part div:nth-child(3){
+        grid-area: thir;
+    }
+    .f2part div:nth-child(4){
+        grid-area: fou;
+    }
+
+    .social-media > img{
+       margin-right: 10px;
+    }
+
+}
+
+.form{
+   display: flex;
+   gap:8%;
+    align-items: center;
+    
+  // border: 2px solid blue;
+  p{
+    color: $primary-color;
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  };
+  #data1{
+    color:  #000;
+
+/* Text_Small */
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+  };
+  #data2{
+    color:  #000;
+
+/* Text_Small */
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+  }
+  img{
+    border-radius: 10px;
+  }
+}
+
+
+h4{
+    color: rgb(15, 15, 15);
+/* H4 */
+  font-family: DM Serif Display;
+ font-size: 24px;
+ font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+
+.f2part>div>p{
+    color: $primary-color;
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.f2part>div>h5{
+    font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+@media screen and (min-width:390px) and (max-width:769px){
+    .f2{
+        width:100%;
+         height: 720px;
+        padding: 0%;
+        margin: 0%;
+        // opacity: 0.0515;
+        background: rgb(245,246,252);
+       // border:1px solid;
+        margin: auto;
+      
+    }
+    .f2part{
+        width:80%;
+        display: grid;
+        // border: 2px solid red;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        // grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "fir fir"
+        "sec thir"
+        "fou  fou";
+        // justify-content: space-around;
+        margin: auto;
+        gap:1%;
+    }
+    .f2part div:nth-child(1){
+        grid-area: fir;
+      //  border: 1px solid blue;
+    }
+    .f2part div:nth-child(2){
+        grid-area: sec;
+    }
+    .f2part div:nth-child(3){
+        grid-area: thir;
+    }
+    .f2part div:nth-child(4){
+        grid-area: fou;
+    }
+
+    .social-media > img{
+       margin-right: 10px;
+    }
+}
