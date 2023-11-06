@@ -1,3 +1,4 @@
+
 ##Getting Started
 To get started with this template, you need to have a basic understanding of html, and css
 
