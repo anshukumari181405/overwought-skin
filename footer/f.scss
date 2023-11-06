@@ -1,0 +1,21 @@
+@use "f1";
+@use "f2";
+@use "subfooter";
+@use "last";
+
+// footer>div{
+//     border: 1px solid red;
+// }
+
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+@media screen and (min-width:390px) and (max-width:769px){
+    body{
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+}
